@@ -1,0 +1,50 @@
+.wj-gauge {
+  margin: 2em auto;
+  width: 200px;
+  height: 200px;
+}
+.wj-gauge .wj-needle {
+  fill: #F087F4;
+  stroke: #F087F4;
+}
+.wj-gauge .wj-needle .wj-inner-needle-cap {
+  fill: white;
+}
+  
+label {
+  min-width: 100px;
+  text-align: right;
+  margin-right: 12px;
+}
+.wj-combobox {
+  width: 150px;
+}
+
+.wj-gauge g text {
+  display: none;
+}
+
+.wj-gauge .wj-needle .wj-inner-needle-cap {
+  fill: #F087F4;
+}
+
+.wj-needle-cap {
+  display: none;
+}
+
+.wj-needle path {
+  d: path('M 0 7 L 80 0 L 0 -7 Z') !important;
+}
+
+.wj-gauge .wj-pointer, .wj-gauge .wj-needle {
+  fill: #F087F4;
+} 
+
+.wj-gauge .wj-face path {
+  fill: rgba(255, 255, 255, 0.2);
+  stroke: rgba(255, 255, 255, 0.2);
+}
+
+.wj-inner-needle-cap {
+  r: 13;
+}
